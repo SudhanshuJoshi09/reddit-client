@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/react-gh-pages/static/css/main.badf2d50.css",
+    "main.js": "/react-gh-pages/static/js/main.615fa623.js",
+    "static/media/profile.png": "/react-gh-pages/static/media/profile.5c617dd51bbbf77a3949.png",
+    "static/media/reddit.svg": "/react-gh-pages/static/media/reddit.d66eb446c325d4e84cf0d6b83aa5a92f.svg",
+    "static/media/commentBubble.svg": "/react-gh-pages/static/media/commentBubble.4b15864cd2841cd5f838f1ee30899442.svg",
+    "static/media/bell.svg": "/react-gh-pages/static/media/bell.7d3fda6113a15a73a4a22bda57d7cde6.svg",
+    "static/media/share.svg": "/react-gh-pages/static/media/share.25bde622eec257069f8f52d18f1dd358.svg",
+    "static/media/message.svg": "/react-gh-pages/static/media/message.586dc39adf69539539ddf8b207a37bb5.svg",
+    "static/media/loading.svg": "/react-gh-pages/static/media/loading.27efb8605c3beae9d29379834cb780e3.svg",
+    "static/media/cross.svg": "/react-gh-pages/static/media/cross.4cc1c8ac2626675f32a1cfa5a16618b0.svg",
+    "static/media/sidebar.svg": "/react-gh-pages/static/media/sidebar.314a59785dd5f2de303321340d8f202a.svg",
+    "static/media/arrow.svg": "/react-gh-pages/static/media/arrow.db7a1f8920948abcb9fef54b93e507a2.svg",
+    "index.html": "/react-gh-pages/index.html",
+    "static/media/more.svg": "/react-gh-pages/static/media/more.4c91f86cb650b4f8176e382ad3218b3c.svg",
+    "static/media/search.svg": "/react-gh-pages/static/media/search.277af64265205564983f92802de7b9cf.svg",
+    "static/media/plus.svg": "/react-gh-pages/static/media/plus.028d61a03c09dc9b9aaff0494bf8ff9f.svg",
+    "main.badf2d50.css.map": "/react-gh-pages/static/css/main.badf2d50.css.map",
+    "main.615fa623.js.map": "/react-gh-pages/static/js/main.615fa623.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.badf2d50.css",
+    "static/js/main.615fa623.js"
+  ]
+}

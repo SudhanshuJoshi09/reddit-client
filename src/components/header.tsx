@@ -41,8 +41,8 @@ const Header: React.FC<HeaderProps> = ({
     <header>
       <div className="flex ml-4 mr-4 mt-2 pb-2 border-2 border-solid border-t-0 border-l-0 border-r-0 border-b-black-500">
         <div className="flex gap-xs pr-lg items-center justify-start pr-6">
-          <RoundedButton imageSrc={sidebarIcon} buttonWidth={10} buttonHeight={10} minImageHeight={5} minImageWidth={5}
-            imageWidth={5} imageHeight={5} onClickAction={() => setSideBar((prev: boolean) => !prev)} />
+          <RoundedButton imageSrc={sidebarIcon} buttonWidth={"w-10"} buttonHeight={"h-10"} minImageHeight={"min-h-5"} minImageWidth={"min-w-5"}
+            imageWidth={"w-5"} imageHeight={"w-5"} onClickAction={() => setSideBar((prev: boolean) => !prev)} />
           <a href="/" id="reddit-logo" className="no-underline flex items-center">
             <div className="p-1.5 rounded-full content-center justify-center flex">
               <img src={redditLogo} alt="image not found" className="min-w-10 min-h-10 " />
@@ -59,7 +59,7 @@ const Header: React.FC<HeaderProps> = ({
               <input type="text" ref={searchInputRef} name="search-bar" placeholder="Search Reddit" autoComplete="off" className="bg-transparent w-full focus:outline-none"
                 spellCheck="false" onChange={handleSearchInput} onFocus={() => setSearchBarFocused(true)} onBlur={() => setSearchBarFocused(false)} />
               {clearIconVisibility &&
-                <RoundedButton imageSrc={crossIcon} buttonWidth={6} buttonHeight={6} minImageHeight={3} minImageWidth={3} imageWidth={3} imageHeight={3} onClickAction={handleClearButton} />
+                <RoundedButton imageSrc={crossIcon} buttonWidth={"w-6"} buttonHeight={"h-6"} minImageHeight={"min-height-3"} minImageWidth={"min-width-3"} imageWidth={"w-3"} imageHeight={"w-3"} onClickAction={handleClearButton} />
               }
             </label>
           </form>
@@ -67,7 +67,7 @@ const Header: React.FC<HeaderProps> = ({
 
         <div className="flex gap-xs pr-lg items-center justify-start">
           <div className="mx-1">
-            <RoundedButton imageSrc={messageIcon} buttonWidth={13} buttonHeight={13} minImageHeight={9} minImageWidth={9} imageWidth={9} imageHeight={9} />
+            <RoundedButton padding={"p-0"} imageSrc={messageIcon} buttonWidth={"w-10"} buttonHeight={"h-10"} minImageHeight={"min-height-10"} minImageWidth={"min-width-10"} imageWidth={"w-10"} imageHeight={"w-10"} />
           </div>
           <div className={`p-2.5 rounded-full content-center justify-center flex rounded-full gap-xs ${createButtonHovered ? "bg-slate-200" : ""}`}
             onMouseEnter={() => setCreateButtonHovered(true)} onMouseLeave={() => setCreateButtonHovered(false)}>
@@ -75,19 +75,17 @@ const Header: React.FC<HeaderProps> = ({
             <span className="mx-2">Create</span>
           </div>
           <div className="mr-1">
-            <RoundedButton imageSrc={bellIcon} buttonWidth={13} buttonHeight={13} minImageHeight={9} minImageWidth={9} imageWidth={9} imageHeight={9} />
+            <RoundedButton imageSrc={bellIcon} buttonWidth={"w-12"} buttonHeight={"h-12"} minImageHeight={"min-height-12"} minImageWidth={"min-width-12"} imageWidth={"w-12"} imageHeight={"w-12"} />
           </div>
         </div>
 
         <div className="flex gap-xs pr-lg items-center justify-start">
-          <RoundedButton imageSrc={profileIcon} buttonWidth={15} buttonHeight={15} minImageHeight={12} minImageWidth={12} imageWidth={12} imageHeight={12} imageRounded={true} />
+          <RoundedButton imageSrc={profileIcon} buttonWidth={"w-14"} buttonHeight={"h-14"} minImageHeight={"min-height-14"} minImageWidth={"min-width-14"} imageWidth={"w-14"} imageHeight={"w-14"} imageRounded={true} />
         </div>
+
       </div>
     </header >
   );
 }
 
 export default Header;
-
-
-// border-b-sm border-t-0 border-l-0 border-r-0 border-solid border-neutral-border-weak

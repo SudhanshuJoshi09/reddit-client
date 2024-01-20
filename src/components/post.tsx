@@ -25,7 +25,7 @@ const Post = () => {
               <time dateTime="2024-01-17T13:48:02.851Z" title="Wednesday, January 17, 2024 at 7:18:02 PM GMT+5:30">18 hr. ago</time>
             </div>
           </div>
-          <RoundedButton imageSrc={moreIcon} buttonWidth={10} buttonHeight={10} imageWidth={5} imageHeight={5} minImageWidth={5} minImageHeight={5} onHoverBackgroundColor={"bg-slate-300"} />
+          <RoundedButton imageSrc={moreIcon} buttonWidth={"w-10"} buttonHeight={"h-10"} imageWidth={"w-5"} imageHeight={"h-5"} minImageWidth={"min-w-5"} minImageHeight={"min-w-5"} onHoverBackgroundColor={"bg-slate-300"} />
         </div>
 
         <div className="w-full hover:underline font-semibold text-xl mb-2">
@@ -39,20 +39,20 @@ const Post = () => {
         <div className="flex justify-start items-center gap-4">
           <div className="flex items-center justify-left gap-2">
             <div className={`rounded-full content-center justify-center flex rounded-full gap-xs items-center bg-slate-200 py-1`}>
-              <RoundedButton imageSrc={arrowIcon} buttonWidth={6} buttonHeight={6} minImageWidth={5} minImageHeight={5} imageWidth={5} imageHeight={5} onHoverBackgroundColor={"bg-slate-300"} />
+              <RoundedButton imageSrc={arrowIcon} buttonWidth={"w-6"} buttonHeight={"h-6"} minImageWidth={"min-w-5"} minImageHeight={"min-w-5"} imageWidth={"w-5"} imageHeight={"h-5"} onHoverBackgroundColor={"bg-slate-300"} />
               <span>0</span>
-              <RoundedButton rotateImage={180} imageSrc={arrowIcon} buttonWidth={6} buttonHeight={6} minImageWidth={5} minImageHeight={5} imageWidth={5} imageHeight={5} onHoverBackgroundColor={"bg-slate-300"} />
+              <RoundedButton rotateImage={"rotate-180"} imageSrc={arrowIcon} buttonWidth={"w-6"} buttonHeight={"h-6"} minImageWidth={"min-w-5"} minImageHeight={"min-w-5"} imageWidth={"w-5"} imageHeight={"h-5"} onHoverBackgroundColor={"bg-slate-300"} />
             </div>
           </div>
           <div className={`flex items-center justify-left gap-2 ${commentsButtonHovered ? "bg-slate-300" : "bg-slate-200"} rounded-full`} onMouseEnter={() => setCommentsButtonHovered(true)} onMouseLeave={() => setCommentsButtonHovered(false)}>
             <div className={`rounded-full content-center justify-center flex rounded-full gap-xs items-center py-1 px-3.5`}>
-              <RoundedButton imageSrc={commentBubbleIcon} buttonWidth={6} buttonHeight={6} minImageWidth={5} minImageHeight={5} imageWidth={5} imageHeight={5} onHoverBackgroundColor={"bg-inherit"} />
+              <RoundedButton imageSrc={commentBubbleIcon} buttonWidth={"w-6"} buttonHeight={"h-6"} minImageWidth={"min-w-5"} minImageHeight={"min-w-5"} imageWidth={"w-5"} imageHeight={"h-5"} onHoverBackgroundColor={"bg-inherit"} />
               <span>10</span>
             </div>
           </div>
           <div className={`flex items-center justify-left gap-2 ${shareButtonHovered ? "bg-slate-300" : "bg-slate-200"} rounded-full`} onMouseEnter={() => setShareButtonHovered(true)} onMouseLeave={() => setShareButtonHovered(false)}>
             <div className={`rounded-full content-center justify-center flex rounded-full gap-xs items-center py-1 px-3.5`}>
-              <RoundedButton imageSrc={shareIcon} buttonWidth={6} buttonHeight={6} minImageWidth={5} minImageHeight={5} imageWidth={5} imageHeight={5} onHoverBackgroundColor={"bg-inherit"} />
+              <RoundedButton imageSrc={shareIcon} buttonWidth={"w-6"} buttonHeight={"h-6"} minImageWidth={"min-w-5"} minImageHeight={"min-w-5"} imageWidth={"w-5"} imageHeight={"h-5"} onHoverBackgroundColor={"bg-inherit"} />
               <span>10</span>
             </div>
           </div>
@@ -65,3 +65,10 @@ const Post = () => {
 }
 
 export default Post;
+
+
+//
+//
+//minImageHeight={}
+//minImageWidth={}
+//

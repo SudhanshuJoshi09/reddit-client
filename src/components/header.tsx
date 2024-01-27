@@ -7,7 +7,6 @@ import messageIcon from '../icons/message.svg';
 import plusIcon from '../icons/plus.svg';
 import bellIcon from '../icons/bell.svg';
 import profileIcon from '../icons/profile.png';
-import '../input.css'
 import RoundedButton from './round-button'
 
 interface HeaderProps {
